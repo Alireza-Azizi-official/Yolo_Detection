@@ -42,4 +42,4 @@ while True:
             cvzone.putTextRect(img,f"{classNames[cls]}{conf}",(max(0,x1),max(35,y1)),scale=1,thickness=1)
 
     cv2.imshow("Image",img)
-    cv2.waitKey(1)
+    cv2.waitKey(0)
